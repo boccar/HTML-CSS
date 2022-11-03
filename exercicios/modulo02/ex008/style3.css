@@ -1,0 +1,50 @@
+/*
+    #  = id
+    .  = class
+    :  = pseudoclass
+    :: = pseudoelement
+    >  = filho
+
+*/
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited {
+    color: darkred;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+a:active {
+    color: yellow;
+}
+
+a::after {
+    content: ' [link] ';
+    font-weight: normal;
+    color: darkgray;
+}
+
+
+
+.caixa {
+   text-align: center;
+   border: 5px solid black;
+   border-radius: 10px;
+   width: 250px;
+   height: 180px;
+   margin: auto;
+   
+}

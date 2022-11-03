@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body {
+    font-family: Papyrus;
+    background-color: rgb(109, 109, 109);
+}
+
+h1 {
+    color: blue;
+    font-size: 150%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin: auto;
+    border-radius: 100px;
+    width: 160px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.658);
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    color: blue;
+    font-size: 150%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin: auto;
+    border-radius: 100px;
+    width: 300px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.658);
+}
+
+p {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    font-family: 'Segoe UI';
+    padding: 5px;
+}
